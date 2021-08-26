@@ -18,3 +18,5 @@
    create app/assets/stylesheets/home.scss
 3. config root route
    add : `root '[location]'` into config/routes.rb
+4. add user_id in to friends table
+   rails g migration add_user_id_to_friends user_id:integer:index

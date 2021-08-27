@@ -30,3 +30,5 @@
                gem 'rails_12factor', '~> 0.0.3'
             end
    - Step 5 : bundle install --without production
+   - Step 6 : push code on github
+   - Step 7: git push heroku [branch]

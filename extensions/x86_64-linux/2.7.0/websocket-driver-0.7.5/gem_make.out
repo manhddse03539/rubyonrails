@@ -1,5 +1,5 @@
 current directory: /home/manhdang/Desktop/rubyonrails/railsfriends/friends/gems/websocket-driver-0.7.5/ext/websocket-driver
-/home/manhdang/.rbenv/versions/2.7.2/bin/ruby -I /home/manhdang/.rbenv/versions/2.7.2/lib/ruby/2.7.0 -r ./siteconf20210828-64418-1gpf7y8.rb extconf.rb
+/home/manhdang/.rbenv/versions/2.7.2/bin/ruby -I /home/manhdang/.rbenv/versions/2.7.2/lib/ruby/2.7.2 -r ./siteconf20210828-64418-1gpf7y8.rb extconf.rb
 creating Makefile
 
 current directory: /home/manhdang/Desktop/rubyonrails/railsfriends/friends/gems/websocket-driver-0.7.5/ext/websocket-driver

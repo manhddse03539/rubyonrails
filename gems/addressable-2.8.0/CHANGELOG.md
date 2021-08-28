@@ -10,7 +10,7 @@
 - performance improvements
 - switch CI/CD to GitHub Actions
 
-# Addressable 2.7.0
+# Addressable 2.7.2
 - added `:compacted` flag to `normalized_query`
 - `heuristic_parse` handles `mailto:` more intuitively
 - dropped explicit support for JRuby 9.0.5.0

@@ -1,5 +1,5 @@
 current directory: /home/manhdang/Desktop/rubyonrails/railsfriends/friends/gems/nio4r-2.5.8/ext/nio4r
-/home/manhdang/.rbenv/versions/2.7.2/bin/ruby -I /home/manhdang/.rbenv/versions/2.7.2/lib/ruby/2.7.0 -r ./siteconf20210828-64418-1v9zb0k.rb extconf.rb
+/home/manhdang/.rbenv/versions/2.7.2/bin/ruby -I /home/manhdang/.rbenv/versions/2.7.2/lib/ruby/2.7.2 -r ./siteconf20210828-64418-1v9zb0k.rb extconf.rb
 checking for unistd.h... yes
 checking for linux/aio_abi.h... yes
 checking for linux/io_uring.h... yes
@@ -93,10 +93,10 @@ selector.c:301:26: warning: passing argument 1 of ‘rb_ensure’ from incompati
       |                          ^~~~
       |                          |
       |                          VALUE (*)(VALUE *) {aka long unsigned int (*)(long unsigned int *)}
-In file included from /home/manhdang/.rbenv/versions/2.7.2/include/ruby-2.7.0/ruby.h:33,
+In file included from /home/manhdang/.rbenv/versions/2.7.2/include/ruby-2.7.2/ruby.h:33,
                  from nio4r.h:10,
                  from selector.c:6:
-/home/manhdang/.rbenv/versions/2.7.2/include/ruby-2.7.0/ruby/ruby.h:1990:17: note: expected ‘VALUE (*)(VALUE)’ {aka ‘long unsigned int (*)(long unsigned int)’} but argument is of type ‘VALUE (*)(VALUE *)’ {aka ‘long unsigned int (*)(long unsigned int *)’}
+/home/manhdang/.rbenv/versions/2.7.2/include/ruby-2.7.2/ruby/ruby.h:1990:17: note: expected ‘VALUE (*)(VALUE)’ {aka ‘long unsigned int (*)(long unsigned int)’} but argument is of type ‘VALUE (*)(VALUE *)’ {aka ‘long unsigned int (*)(long unsigned int *)’}
  1990 | VALUE rb_ensure(VALUE(*)(VALUE),VALUE,VALUE(*)(VALUE),VALUE);
       |                 ^~~~~~~~~~~~~~~
 selector.c: In function ‘NIO_Selector_wakeup’:

@@ -1,5 +1,5 @@
 current directory: /home/manhdang/Desktop/rubyonrails/railsfriends/friends/gems/puma-5.4.0/ext/puma_http11
-/home/manhdang/.rbenv/versions/2.7.2/bin/ruby -I /home/manhdang/.rbenv/versions/2.7.2/lib/ruby/2.7.0 -r ./siteconf20210828-64418-l83wm2.rb extconf.rb
+/home/manhdang/.rbenv/versions/2.7.2/bin/ruby -I /home/manhdang/.rbenv/versions/2.7.2/lib/ruby/2.7.2 -r ./siteconf20210828-64418-l83wm2.rb extconf.rb
 using OpenSSL pkgconfig (openssl.pc)
 checking for openssl/bio.h... yes
 checking for DTLS_method() in openssl/ssl.h... yes

@@ -1,5 +1,5 @@
 current directory: /home/manhdang/Desktop/rubyonrails/railsfriends/friends/gems/ffi-1.15.3/ext/ffi_c
-/home/manhdang/.rbenv/versions/2.7.2/bin/ruby -I /home/manhdang/.rbenv/versions/2.7.2/lib/ruby/2.7.0 -r ./siteconf20210828-64418-55s4du.rb extconf.rb
+/home/manhdang/.rbenv/versions/2.7.2/bin/ruby -I /home/manhdang/.rbenv/versions/2.7.2/lib/ruby/2.7.2 -r ./siteconf20210828-64418-55s4du.rb extconf.rb
 checking for ffi.h... yes
 checking for ffi_prep_closure_loc() in -lffi... yes
 checking for ffi_prep_cif_var()... yes

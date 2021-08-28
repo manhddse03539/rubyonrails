@@ -1,0 +1,15 @@
+current directory: /home/manhdang/Desktop/rubyonrails/railsfriends/friends/gems/bindex-0.8.1/ext/skiptrace
+/home/manhdang/.rbenv/versions/2.7.2/bin/ruby -I /home/manhdang/.rbenv/versions/2.7.2/lib/ruby/2.7.0 -r ./siteconf20210828-64418-qde1t3.rb extconf.rb
+creating Makefile
+
+current directory: /home/manhdang/Desktop/rubyonrails/railsfriends/friends/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /home/manhdang/Desktop/rubyonrails/railsfriends/friends/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/manhdang/Desktop/rubyonrails/railsfriends/friends/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20210828-64418-13qx3x9/skiptrace/internal

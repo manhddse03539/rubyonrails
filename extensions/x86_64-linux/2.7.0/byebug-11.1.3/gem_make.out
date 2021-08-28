@@ -1,0 +1,19 @@
+current directory: /home/manhdang/Desktop/rubyonrails/railsfriends/friends/gems/byebug-11.1.3/ext/byebug
+/home/manhdang/.rbenv/versions/2.7.2/bin/ruby -I /home/manhdang/.rbenv/versions/2.7.2/lib/ruby/2.7.0 -r ./siteconf20210828-64418-ezu7jr.rb extconf.rb
+creating Makefile
+
+current directory: /home/manhdang/Desktop/rubyonrails/railsfriends/friends/gems/byebug-11.1.3/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/manhdang/Desktop/rubyonrails/railsfriends/friends/gems/byebug-11.1.3/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/manhdang/Desktop/rubyonrails/railsfriends/friends/gems/byebug-11.1.3/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20210828-64418-n355sj/byebug

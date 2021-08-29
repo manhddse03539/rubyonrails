@@ -16,7 +16,6 @@ ActiveRecord::Schema.define(version: 2021_08_26_165035) do
     t.string "first_name"
     t.string "lastname"
     t.string "email"
-    t.string "string"
     t.string "twister"
     t.string "phone"
     t.datetime "created_at", precision: 6, null: false

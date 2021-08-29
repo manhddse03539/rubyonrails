@@ -32,3 +32,8 @@
    - Step 5 : bundle install --without production
    - Step 6 : push code on github
    - Step 7: git push heroku [branch]
+6. After clone code
+   - bundle install
+   - rake db:create
+   - rake db:migrate
+   - rails s

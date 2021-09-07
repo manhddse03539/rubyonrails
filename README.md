@@ -23,15 +23,9 @@
 5. Deploy heroku
    - Step1 : Intaill heroku sudo snap install --classic heroku (https://devcenter.heroku.com/articles/heroku-cli)
    - Step2 : heroku login -> heroku create -> heroku rename [appname]
-   - Step3: heroku keys:add
-   - Step4: In gem file cut `gem 'sqlite3', '~> 1.4'` into group :development
-            group :production do 
-               gem 'pg', '~> 1.2', '>= 1.2.3'
-               gem 'rails_12factor', '~> 0.0.3'
-            end
-   - Step 5 : bundle install --without production
-   - Step 6 : push code on github
-   - Step 7: git push heroku [branch]
+   - Step 3 : bundle install --without production
+   - Step 4 : push code on github
+   - Step 5: git push heroku [branch]
 6. After clone code
    - bundle install
    - rake db:create

@@ -25,6 +25,8 @@
    - Step2 : heroku login -> heroku create -> heroku rename [appname]
    - Step 3 : bundle install --without production
    - Step 4 : push code on github
+      git remote add origin [https://github.com/...]
+      git push -u origin master
    - Step 5: git push heroku [branch]
 6. After clone code
    - bundle install

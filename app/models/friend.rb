@@ -1,3 +1,5 @@
 class Friend < ApplicationRecord
     belongs_to :user
+
+    has_one_attached :jxw_file
 end

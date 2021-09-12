@@ -12,6 +12,11 @@
   <% end %>
 
   <div class="mb-3 field form-group">
+    <%= form.label :jxw_file %>
+    <%= form.file_field :jxw_file %>
+  </div>
+
+  <div class="mb-3 field form-group">
     <%= form.text_field :first_name, class:"form-control", placeholder:"firstname" %>
   </div>
 

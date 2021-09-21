@@ -1,0 +1,16 @@
+<div class="mt-5 mx-auto col-md-8"> 
+    <h1>JXW FILE UPLOAD</h1>
+  <%= form_with(model: upload, local: true) do |form| %>
+
+    <div class="field mb-3">
+        <%= form.label :jxw_file, class: 'label' %>
+        <div class="control">
+            <%= form.file_field :jxw_file, class: 'input' %>
+        </div>
+    </div>
+    
+    <div class="actions">
+      <%= form.submit "Submit", class: 'button btn-primary' %>
+    </div>
+  <% end %>
+</div>
